@@ -1,0 +1,53 @@
+2. Different Programming Types:
+===============================
+
+    a. Procedural programming
+    -------------------------
+
+        def greet(name):
+            print("Hello, " + name + "!")
+
+        def calculate_sum(a, b):
+            return a + b
+
+        # Main program
+        user_name = input("Enter your name: ")
+        greet(user_name)
+
+        num1 = int(input("Enter a number: "))
+        num2 = int(input("Enter another number: "))
+        result = calculate_sum(num1, num2)
+        print("Sum:", result)
+
+
+    b. Functional programming example in Python
+    -------------------------------------------
+
+        # Function to calculate the square of a number
+        def square(x):
+            return x ** 2
+
+        # Example usage
+        squared_numbers = square(8)
+
+        print("Squared Numbers:", squared_numbers)
+
+
+
+    c. Object-oriented programming example in Python
+    -------------------------------------------------
+
+        class Dog:
+            def __init__(self, name, age):
+                self.name = name
+                self.age = age
+
+            def bark(self):
+                print("Woof!")
+
+        # Creating an instance of the Dog class
+        my_dog = Dog("Buddy", 3)
+
+        # Accessing object properties and methods
+        print(f"{my_dog.name} is {my_dog.age} years old.")
+        my_dog.bark()
